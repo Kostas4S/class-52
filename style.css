@@ -1,0 +1,40 @@
+h1 {
+    color:Red;
+    margin:30px
+}
+
+.header{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: space-between;
+    border:solid;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+
+}
+
+a:link{
+    color:blue;
+}
+a:visited{
+    color:blue;
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+.item:hover p{
+    opacity:1
+}
+.item:hover img{
+    opacity:0.33
+}
